@@ -4,6 +4,8 @@
  */
 package task2;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author sebid
@@ -14,4 +16,5 @@ public class SwimStudent {
     private String qualfication;
     private SwimLesson group;
     private boolean waiting;
+    private ArrayList<Qualification> qualifications;
 }

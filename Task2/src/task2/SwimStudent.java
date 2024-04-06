@@ -13,8 +13,21 @@ import java.util.ArrayList;
 public class SwimStudent {
 
     private String name;
-    private String qualfication;
-    private SwimLesson group;
+    private String level;
+    private SwimLesson group; 
     private boolean waiting;
+    private static int id = 0;
     private ArrayList<Qualification> qualifications;
+
+    public SwimStudent(String name) {
+        this.name = name;
+        this.id = id++;
+        this.level = "novice";
+    }
+
+    public setLevel(String level){
+        this.level = level;
+    }
+    
+    public setGroup
 }

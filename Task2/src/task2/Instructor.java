@@ -12,6 +12,9 @@ import java.util.ArrayList;
  */
 public class Instructor {
 
+    public Instructor(String name) {
+        this.name = name;
+    }
     private String name;
     private ArrayList<SwimLesson> lessonsTeached;
 }
